@@ -1,0 +1,40 @@
+@keyframes leftRight{
+    0%,100%{
+        transform: translateX(100%);
+    }
+    50%{
+        transform: translateX(0);
+    }
+}
+@keyframes color{
+    0%,100%{
+        color: white;
+    }
+    10%{
+        color: #0066ff;
+    }
+    20%{
+        color: #ffff00;
+    }
+    30%{
+        color: #00ccff;
+    }
+    40%{
+        color: #ff5050;
+    }
+    50%{
+        color: #66ff33;
+    }
+    60%{
+        color: #3333ff;
+    }
+    70%{
+        color: #ff0000;
+    }
+    80%{
+        color: #663300;
+    }
+    90%{
+        color: tomato;
+    }
+}
