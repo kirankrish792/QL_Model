@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
 @import "./default";
 @import "./animate";
-
+@import "./navbar";
 .header{
     min-height: 100vh;
     padding: 70px;
@@ -125,10 +125,10 @@
     }
     .imgBx{
         height: 100%;
-            img{
-                height: 100%;
-                transform:rotateY(180deg);
-                margin-left: 70px;
-            }
+        img{
+            height: 100%;
+            transform:rotateY(180deg);
+            margin-left: 70px;
         }
+    }
 }

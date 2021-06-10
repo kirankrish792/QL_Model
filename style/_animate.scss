@@ -38,3 +38,25 @@
         color: tomato;
     }
 }
+@keyframes hover{
+    0%,100%{
+        width: 0;
+    }
+    50%{
+        width: 248px;
+    }
+}
+@keyframes colorgrad{
+    0%,100%{
+        background: linear-gradient(0.25turn,yellow,red,black);
+    }
+    25%{
+        background:linear-gradient(0.25turn,red,black,blue);
+    }
+    50%{
+        background:linear-gradient(0.25turn,black,blue,green)
+    }
+    75%{
+        background:linear-gradient(0.25turn,blue,green,white);
+    }
+}

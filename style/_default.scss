@@ -1,3 +1,5 @@
+@import "./animate";
+
 $fontColor: rgb(209, 200, 200);
 *{
     margin: 0;
@@ -23,4 +25,15 @@ section{
     display: flex;
     flex-direction: $direction;
     justify-content:$justify;
+}
+::-webkit-scrollbar{
+    width: 7px;
+    background: black;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(blue,#34c9eb,gray);
+    border-radius: 9px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(transparent,#00c6ff,red);
 }
