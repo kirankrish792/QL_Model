@@ -480,8 +480,8 @@ section {
   z-index: 100;
   top: 0;
   background-size: 30%;
-  -webkit-transition: 1.5 s;
-  transition: 1.5 s;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
 }
 
 .preloader.active {
