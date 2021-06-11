@@ -1,6 +1,6 @@
 const burger = document.querySelector('.burger');
 const nav = document.querySelector('.nav');
-const section = document.querySelector('div');
+const section = document.querySelector('.body');
 const preLoader = document.querySelector(".preloader");
 
 burger.addEventListener('click', () => {
