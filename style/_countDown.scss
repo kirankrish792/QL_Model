@@ -1,0 +1,28 @@
+@import "./default";
+.countdown{
+    text-align: center;
+    position: relative;
+    max-width: 100%;
+    left: 0;
+    bottom: -47.5%;
+    @include flux(column,center);
+    width: 100%;
+    background: black;
+    color: red;
+    overflow: hidden;
+    h2{
+        margin-top: 20px;
+        font-family: 'Poppins', monospace;
+    }
+    .count{
+        @include flux(row,space-around);
+        p{
+            margin: 40px;
+            font-size: 20px;
+            overflow: hidden;
+        }
+        .co{
+                font-size: 90px;
+            }
+    }
+}

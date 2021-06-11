@@ -3,6 +3,8 @@
 @import "./default";
 @import "./animate";
 @import "./navbar";
+@import "./countDown";
+@import "./preloader";
 .header{
     min-height: 100vh;
     padding: 70px;
@@ -98,6 +100,7 @@
     }
     .imgBx{
         width: 50%;
+        overflow: hidden;
         img{
             height: 100%;
             object-fit:contain;
