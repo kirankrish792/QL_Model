@@ -20,6 +20,6 @@ section.addEventListener('click', () => {
 window.addEventListener('load', () => {
     setTimeout(() => {
         preLoader.classList.toggle('active');
-    }, 1000);
+    }, 2000);
 });
 
