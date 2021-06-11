@@ -4,6 +4,11 @@
     position: fixed;
     background: black url(asset/preloader.gif) no-repeat center center;
     z-index: 100;
+    top: 0;
     background-size: 30%;
-    transition: 1s;    
+    transition: 1.5s; 
+}
+
+.preloader.active{
+    top: -100%;
 }

@@ -18,6 +18,8 @@ section.addEventListener('click', () => {
 });
 
 window.addEventListener('load', () => {
-    preLoader.style.top = '-100%';
+    setTimeout(() => {
+        preLoader.classList.toggle('active');
+    }, 1000);
 });
 
